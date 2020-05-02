@@ -16,11 +16,15 @@ public class LoginPage2 extends TesBase {
 	@FindBy(id = "idvalue")
 	WebElement password;
 
-	@FindBy(name = "")
+	@FindBy(name = "anuj")
 	WebElement loginButton;
 	
-	@FindBy(how=How.XPATH,using="")
+	@FindBy(how=How.XPATH,using="anuj")
 	WebElement signupbtn;
+	
+	
+	@FindBy(how=How.XPATH,using="anuj")
+	WebElement signup;
 
 	public LoginPage2() {
 		PageFactory.initElements(driver, this);
